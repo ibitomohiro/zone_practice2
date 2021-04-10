@@ -1,10 +1,12 @@
 body {
-  color: antiquewhite#000;
+  color: #000000;
   font-family: 'Hiragino Mincho Pro', serif;
+
 }
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 img {
@@ -12,19 +14,19 @@ img {
   height: auto;
 }
 
-header{
-  background-color: #000;
+header {
+  background-color: #000000;
   display: flex;
 }
 
 .header-logo {
   width: 193px;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.header-nav{
+.header-nav {
   margin-left: auto;
 }
 
@@ -33,16 +35,35 @@ header{
 }
 
 .nav-list {
-  display: flex;
-  margin-right: 25px;
-  margin-top: 28px;
-  margin-bottom: 30px;
+    display: flex;
+    margin-right: 25px;
+    margin-top: 28px;
+    margin-bottom: 30px;
 }
 
-.nav-item: :nth-child() {
-  margin-left:25px;
+.nav-item:nth-child(2) {
+  margin-left: 25px;
+}
+
+.nav-item {
+
 }
 
 .nav-item a {
-  color: #ffffff;
+  color: #fff;
+  font-size: 22px;
+}
+
+.top {
+  background-image: url(../image/top-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 551px;
+}
+
+.top-title {
+  font-size: 60px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  text-align: center;
 }
