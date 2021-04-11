@@ -67,3 +67,95 @@ header {
   padding-bottom: 240px;
   text-align: center;
 }
+
+.course {
+
+}
+
+.inner {
+
+}
+
+.cmn-title {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 53px; 
+}
+
+.course-cont {
+    padding-top: 40px;
+}
+
+.course-list {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.course-item {
+    width: 290px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.course-item:nth-child(n+2) {
+  margin-left: 20px;
+}
+
+.course-item-image {
+  
+}
+
+.course-item-text {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.course-item-text p {
+  font-size: 18px;
+  margin-left: 11px;
+}
+
+.course-item-box {
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.course-item-box:before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: #707070;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -9px;
+
+}
+.course-item-box p {
+  font-size: 16px;
+}
+
+.course-item-box p:nth-child(2) {
+  margin-top: 8px;
+}
+
+.course-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.course-btn a {
+  box-shadow: 0px 3px 6px #000000;
+  width: 320px;
+  font-size: 18px;
+  border: 1px solid #eeeeee;
+  display: inline-block;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+}
